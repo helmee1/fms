@@ -49,7 +49,7 @@
         </v-btn>
       </span>
     </v-app-bar>
-    <v-navigation-drawer right v-model="drawer" absolute temporary>
+    <v-navigation-drawer  v-model="drawer" absolute temporary>
       <v-list>
         <v-list-item v-for="item in paths" :key="item.name" :to="item.link">
           <v-list-item-content>
